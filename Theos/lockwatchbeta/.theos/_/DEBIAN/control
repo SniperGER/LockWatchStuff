@@ -1,0 +1,11 @@
+Package: de.sniperger.LockWatchBeta
+Name: LockWatch Early Access
+Description: Have your own Apple Watch on your Lockscreen
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate, de.sniperger.lockwatchstockplugins
+Priority: optional
+Architecture: iphoneos-arm
+Author: Sniper_GER
+Depiction: http://fdev.markab.uberspace.de/repo/depictions/de.sniperger.LockWatchBeta/depiction.html
+Version: 1.0-1-19+debug
+Installed-Size: 552

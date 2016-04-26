@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  LockWatch_Tweak
+
+  Created by Janik Schmidt on 24.02.16.
+
+*/
+/*
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Compatible with Update 1.1
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Schlicht";
+"COLOR" = "Farbe";
+"WEATHER" = "Wetter";
+"CHRONO" = "Chronograph";
+"X-LARGE" = "X-Large";
+
+"CUSTOMIZE" = "Anpassen";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Einstellungen";
+"SETTINGS_GENERAL" = "Allgemein";
+"SETTINGS_WATCHFACES" = "Ziffernblätter";
+"SETTINGS_PRIVACY" = "Privatssphäre";
+"SETTINGS_APPEARANCE" = "Darstellung";
+
+"SETTINGS_ENABLED" = "Aktiviert";
+"SETTINGS_BLUR_ENABLED" = "Unschärfe zeigen";
+
+"SETTINGS_WEATHER" = "Wetter";
+"WEATHER_FAHRENHEIT" = "Fahrenheit benutzen";
+
+"SETTINGS_RESPRING" = "SpringBoard neustarten";
+"SETTINGS_RESPRING_DESCRIPTION" = "Starten Sie das SpringBoard neu um sicherzugehen, dass alle Einstellungen übernommen werden";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_STOCK" = "Standard-Ziffernblätter";
+"SETTINGS_WATCHFACES_NO_STOCK" = "Keine vorinstallierten Ziffernblätter";
+"SETTINGS_WATCHFACES_EXTERNAL" = "Drittanbieter-Plugins";
+"SETTINGS_WATCHFACES_NO_EXTERNAL" = "Keine Plugins installiert";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Das Deaktivieren von Ziffernblättern kann zu einer Verbesserung der Leistung führen.\n\nUm Drittanbieter-Plugins zu deaktivieren, müssen diese deinstalliert werden.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Ortungsdienste benötigt";
+"LOCATION_DESCRIPTION" = "Die Ortungsdienste werden benötigt, um das Ziffernblatt \"Wetter\" zu aktualisieren. Wenn Sie die Ortungsdienste deaktiviert haben, öffnen Sie Einstellungen > Datenschutz > Ortungsdienste und aktivieren Sie den Schalter. Keine Sorge, die Daten werden an niemanden übermittelt.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Ortungsdienste";
+"SETTINGS_PRIVACY_WOEID" = "WOEID einstellen";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "WOEID einstellen";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Stellen Sie die WOEID (Where On Earth ID) des Ortes ein, den Sie auf dem Ziffernblatt \"Wetter\" anzeigen lassen wollen.";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Einstellen";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Abbrechen";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Kantenglättung";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Das Deaktivieren der Kantenglättung führt zu einer Steigerung der Leistung, resultiert allerdings auch in einer schlechteren Darstellung der Ziffernblätter.";
+"SETTINGS_GRAPHICS_COLOR_SET" = "Farbpalette";
+"SETTINGS_GRAPHICS_WATCHOS_SELECTOR" = "watchOS-Selektor";

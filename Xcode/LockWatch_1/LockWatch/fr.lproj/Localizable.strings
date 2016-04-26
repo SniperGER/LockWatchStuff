@@ -1,0 +1,53 @@
+/* 
+ Localizable.strings 
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ French translation by /u/vottone on 26.11.15
+ Compatible with Update 1.0.2
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved. 
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Simple";
+"COLOR" = "Couleur";
+"WEATHER" = "Meteo";
+"CHRONO" = "Chrono";
+"X-LARGE" = "X-Large";
+
+"CUSTOMIZE" = "Modifier";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Réglages";
+"SETTINGS_GENERAL" = "Général";
+"SETTINGS_WATCHFACES" = "Watch Faces";
+"SETTINGS_PRIVACY" = "Confidentialité";
+"SETTINGS_GRAPHICS" = "Graphics";
+
+"SETTINGS_WEATHER" = "Meteo";
+"WEATHER_FAHRENHEIT" = "Utiliser Fahrenheit";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Watch Faces disponible";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Désactiver les Watch Faces pour améliorer les performances.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Géolocalisation Requise";
+"LOCATION_DESCRIPTION" = "Le Service de Géolocalisation est requis pour mettre à jour la watch face \"Weather\". Si vous souhaitez la désactiver, rendez vous dans Réglages > Confidentialité > Géolocalisation et activé. Ne vous en faites pas, la localisation ne sera envoyée à Personne.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Géolocalisation";
+"SETTINGS_PRIVACY_WOEID" = "Entrez WOEID for Weather";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Entrez WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Entrez WOEID (Where On Earth ID) pour le lieu que vous voulez indiquer sur la watch face \"Weather\".";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Ok";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Annulé";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Désactivé Anti-Aliasing améliore les perforcmances et la qualité d'affichage.";

@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  LockWatch_Test
+
+  Created by Janik Schmidt on 15.11.15.
+  Arabic translation by /u/Ahmad_Nagy on 25.11.15
+  Compatible with Update 1.0.2
+  Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+*/
+
+/* Watch Face names */
+"SIMPLE" = "بسيط";
+"COLOR" = "الوان";
+"WEATHER" = "الطقس";
+"CHRONO" = "كرونوجراف";
+"X-LARGE" = "كبير جداً";
+
+"CUSTOMIZE" = "الأعدادات";
+
+
+/* Settings - Main page */
+"SETTINGS" = "الأعدادات";
+"SETTINGS_GENERAL" = "عام";
+"SETTINGS_WATCHFACES" = "أوجهة الساعات";
+"SETTINGS_PRIVACY" = "خصوصيه";
+"SETTINGS_GRAPHICS" = "الشكل";
+
+"SETTINGS_WEATHER" = "الطقس";
+"WEATHER_FAHRENHEIT" = "استعمل فهرنهايت";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "أوجهة الساعات المتوفره";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "إقاف أوجهة الساعات سيحسن الأداء";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "خدمات الموقع مطلوبه ";
+"LOCATION_DESCRIPTION" = "خدمات الموقع مطلوبه لتحديث \"الطقس\" وجه الساعه. اذا اقفلت خدمات الموقع، من فضلك توجه إلي الاعدادات > خصوصيه > خدمات الموقع و فعلها. لا تقلق، موقعك لن يتم بعثه إلي اي احد";
+
+"SETTINGS_PRIVACY_LOCATION" = "خدمات الموقع";
+"SETTINGS_PRIVACY_WOEID" = "اكتب رمز ال WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "طبق الWOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "طبق رمز ال WOEID (اين مكانك في العالم/Where On Earth ID) للموقع الذي تريد ان تراه علي \"الطقس\" وجه الساعه";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "تطبيق";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "إلغاء";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "التنعيم";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "إقاف التنعيم سيحسن الأداء علي حساب الجوده";

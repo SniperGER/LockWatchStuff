@@ -1,0 +1,9 @@
+/*
+ InfoPlist.strings
+ LockWatch
+ 
+ Created by Janik Schmidt on 02.12.15.
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+ */
+
+CFBundleDisplayName = "天気";

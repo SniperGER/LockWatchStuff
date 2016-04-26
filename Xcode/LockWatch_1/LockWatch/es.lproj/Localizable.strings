@@ -1,0 +1,53 @@
+/*
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Spanish translation by /u/IsaacTobalina on 25.11.15
+ Compatible with Update 1.0.2
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Simple";
+"COLOR" = "Color";
+"WEATHER" = "Clima";
+"CHRONO" = "Cronografia";
+"X-LARGE" = "Extra Grande";
+
+"CUSTOMIZE" = "Customizacion";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Ajustes";
+"SETTINGS_GENERAL" = "General";
+"SETTINGS_WATCHFACES" = "Cara de Reloj";
+"SETTINGS_PRIVACY" = "Privacidad";
+"SETTINGS_GRAPHICS" = "Graficos";
+
+"SETTINGS_WEATHER" = "Clima";
+"WEATHER_FAHRENHEIT" = "Usar Farenheit";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Caras de Reloj disponibles";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Desactivar caras de Reloj, puede improvisar el rendimiento.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Servicio de Localización requerido";
+"LOCATION_DESCRIPTION" = "Los servicios de localización son requeridos para actualizar \”Clima\” (Carátula de Reloj). Si no lo tienes activado por favor ve a, Ajustes > Privacidad > Servicio de Localización y actívalo. No te preocupes, tu localización no sera enviada a nadie.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Servicios de Localización";
+"SETTINGS_PRIVACY_WOEID" = "Poner WOEID para el Clima";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Poner WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Poner el WOEID (ID de donde en la Tierra) para la localización que quieres poner en  \”Clima\” carátula del Reloj";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Poner";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Cancelar";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Desactivar Anti-Aliasing mejora el rendimiento por el costo de calidad.";

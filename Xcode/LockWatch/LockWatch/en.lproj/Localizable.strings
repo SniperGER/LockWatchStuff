@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  LockWatch
+
+  Created by Janik Schmidt on 25.01.16.
+  Copyright © 2016 Janik Schmidt. All rights reserved.
+*/
+
+"CUSTOMIZE" = "Customize";
+
+"SETTINGS_TITLE" = "Settings";
+
+"COLOR_SETS" = "Color Sets";
+"COLOR_SETS_NO_DATA" = "Pull to refresh";
+"COLOR_SETS_LAST_UPDATED" = "Last updated";
+"COLOR_SETS_FOOTER" = "%d colors. Powered by floe.";
+"COLOR_SETS_USE_SET" = "Save";
+"COLOR_PREVIEW" = "Color Preview";
+
+"WATCH_SELECTOR" = "Use watchOS Selector";
+"FAHRENHEIT" = "Use Fahrenheit";
+
+
+/* Color Names */
+"White" = "White";
+"Red" = "Red";
+"Orange" = "Orange";
+"Light Orange" = "Light Orange";
+"Yellow" = "Yellow";
+"Green" = "Green";
+"Green" = "Green";
+"Light Blue" = "Light Blue";
+"Blue" = "Blue";
+"Midnight Blue" = "Midnight Blue";
+"Purple" = "Purple";
+"Lavender" = "Lavender";
+"Pink" = "Pink";
+"Vintage Rose" = "Vintage Rose";
+"Walnut" = "Walnut";
+"Stone" = "Stone";
+"Antique White" = "Antique White";

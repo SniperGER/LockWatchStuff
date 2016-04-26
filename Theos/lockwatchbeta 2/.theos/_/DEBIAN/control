@@ -1,0 +1,10 @@
+Package: de.sniperger.lockwatch
+Name: LockWatch Beta
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Sniper_GER
+Author: Sniper_GER
+Section: Tweaks
+Version: 0.0.1-58+debug
+Installed-Size: 400

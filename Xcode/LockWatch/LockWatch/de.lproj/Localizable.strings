@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  LockWatch
+
+  Created by Janik Schmidt on 25.01.16.
+  Copyright © 2016 Janik Schmidt. All rights reserved.
+*/
+
+"CUSTOMIZE" = "Anpassen";
+
+"SETTINGS_TITLE" = "Einstellungen";
+
+"COLOR_SETS" = "Farbpaletten";
+"COLOR_SETS_NO_DATA" = "Zum Aktualisieren ziehen";
+"COLOR_SETS_LAST_UPDATED" = "Aktutalisiert";
+"COLOR_SETS_FOOTER" = "%d Farben. Powered by floe.";
+"COLOR_SETS_USE_SET" = "Sichern";
+"COLOR_PREVIEW" = "Vorschau";
+
+"WATCH_SELECTOR" = "watchOS-Selektor";
+"FAHRENHEIT" = "Fahrenheit benutzen";
+
+
+/* Color Names */
+"White" = "Weiß";
+"Red" = "Rot";
+"Orange" = "Orange";
+"Light Orange" = "Hellorange";
+"Yellow" = "Gelb";
+"Green" = "Grün";
+"Turquoise" = "Türkis";
+"Light Blue" = "Hellblau";
+"Blue" = "Blau";
+"Midnight Blue" = "Mitternachtsblau";
+"Purple" = "Lila";
+"Lavender" = "Lavendel";
+"Pink" = "Rosa";
+"Vintage Rose" = "Altrosa";
+"Walnut" = "Walnuss";
+"Stone" = "Stein";
+"Antique White" = "Altweiß";

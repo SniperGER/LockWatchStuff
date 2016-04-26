@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  LockWatch_Tweak
+
+  Created by Janik Schmidt on 24.02.16.
+
+*/
+
+/* Settings - Main page */
+"SETTINGS" = "Settings";
+"SETTINGS_GENERAL" = "General";
+"SETTINGS_WATCHFACES" = "Watch Faces";
+"SETTINGS_PRIVACY" = "Privacy";
+"SETTINGS_APPEARANCE" = "Appearance";
+
+"SETTINGS_ENABLED" = "Enabled";
+"SETTINGS_BLUR_ENABLED" = "Show Blur";
+
+
+"SETTINGS_WEATHER" = "Weather";
+"WEATHER_FAHRENHEIT" = "Use Fahrenheit";
+
+"SETTINGS_RESPRING" = "Respring";
+"SETTINGS_RESPRING_DESCRIPTION" = "Respring to make sure every setting is applied. Not all settings need a respring, but better safe than sorry, right?";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_STOCK" = "Stock watch faces";
+"SETTINGS_WATCHFACES_NO_STOCK" = "No preinstalled watch faces";
+"SETTINGS_WATCHFACES_EXTERNAL" = "Third party plugins";
+"SETTINGS_WATCHFACES_NO_EXTERNAL" = "No plugins installed";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Disabling watch faces can improve performance.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Location Services required";
+"LOCATION_DESCRIPTION" = "The Location Services are required to update the \"Weather\" watch face. If you have disabled Location Services, please go to Settings > Privacy > Location Services and enable them. Don't worry, your location won't be sent to anybody.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Location Services";
+"SETTINGS_PRIVACY_WOEID" = "Set WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Set WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Set the WOEID (Where On Earth ID) for the location you want to display on the \"Weather\" watch face.";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Set";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Cancel";
+
+
+/* Settings - Appearance */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Disabling Anti-Aliasing improves performance at the expense of display quality.";
+"SETTINGS_GRAPHICS_COLOR_SET" = "Color Set";
+"SETTINGS_GRAPHICS_WATCHOS_SELECTOR" = "Use watchOS Selector";

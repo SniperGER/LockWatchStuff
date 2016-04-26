@@ -1,0 +1,1966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D237F321C4D98C900606524 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D237F331C4D98C900606524 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D237F371C4D98C900606524 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085AA1C23777900F15C35 /* WatchCustomizations.m */; };
+		8D237F381C4D98C900606524 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085AC1C23777900F15C35 /* WatchFaceBase.m */; };
+		8D237F391C4D98C900606524 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085B01C23777900F15C35 /* WatchIndicators.m */; };
+		8D237F3B1C4D98C900606524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D237FBB1C4E2E8200606524 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D237FB21C4E2E8200606524 /* ColorSelector.m */; };
+		8D237FBE1C4E2E8200606524 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D237FB81C4E2E8200606524 /* WatchHands.m */; };
+		8D237FC31C4E2F3400606524 /* LWWatchFaceMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D237FC21C4E2F3400606524 /* LWWatchFaceMouse.m */; };
+		8D237FC51C4E2F7F00606524 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D237FC41C4E2F7F00606524 /* entitlements.xml */; };
+		8D2380011C4E458800606524 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2380001C4E458800606524 /* QuartzCore.framework */; };
+		8D4CA56B1C0A65BE00137121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA56A1C0A65BE00137121 /* main.m */; };
+		8D4CA56E1C0A65BE00137121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA56D1C0A65BE00137121 /* AppDelegate.m */; };
+		8D4CA5711C0A65BE00137121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5701C0A65BE00137121 /* ViewController.m */; };
+		8D4CA5761C0A65BE00137121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CA5751C0A65BE00137121 /* Assets.xcassets */; };
+		8D4CA5C61C0A6E6100137121 /* LWWatchFaceSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5C51C0A6E6100137121 /* LWWatchFaceSimple.m */; };
+		8D4CA5C81C0A6EA100137121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D4CA5D11C0A6F7600137121 /* WatchFaceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA5D01C0A6F7600137121 /* WatchFaceBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4CA5DA1C0A702300137121 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5D91C0A702300137121 /* WatchFaceBase.m */; };
+		8D4CA5EB1C0A764A00137121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D4CA5EE1C0A766800137121 /* LWWatchFaceColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5ED1C0A766800137121 /* LWWatchFaceColor.m */; };
+		8D4CA5FF1C0B010600137121 /* ColorSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA5FD1C0B010600137121 /* ColorSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4CA6001C0B010600137121 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA5FE1C0B010600137121 /* ColorSelector.m */; };
+		8D4CA6031C0B012E00137121 /* WatchHands.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA6011C0B012E00137121 /* WatchHands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4CA6041C0B012E00137121 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6021C0B012E00137121 /* WatchHands.m */; };
+		8D4CA60B1C0B124D00137121 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CA60D1C0B124D00137121 /* Localizable.strings */; };
+		8D4CA61A1C0B148700137121 /* LWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6191C0B148700137121 /* LWScrollView.m */; };
+		8D4CA61D1C0B149F00137121 /* LWScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA61C1C0B149F00137121 /* LWScrollViewContainer.m */; };
+		8D4CA6201C0B14C200137121 /* WatchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA61F1C0B14C200137121 /* WatchButton.m */; };
+		8D4CA6281C0B199100137121 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D4CA6291C0B199100137121 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D4CA62A1C0B294300137121 /* WatchFaceBase.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5CE1C0A6F7600137121 /* WatchFaceBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D4CA6311C0BC01200137121 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D4CA6321C0BC01500137121 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D4CA6351C0CF9B000137121 /* WatchIndicators.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA6331C0CF9B000137121 /* WatchIndicators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4CA6361C0CF9B000137121 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6341C0CF9B000137121 /* WatchIndicators.m */; };
+		8D4CA6391C0D986100137121 /* WatchImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CA6381C0D986100137121 /* WatchImages.bundle */; };
+		8D4CA63C1C0D995900137121 /* WatchCustomizations.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA63A1C0D995900137121 /* WatchCustomizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4CA63D1C0D995900137121 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA63B1C0D995900137121 /* WatchCustomizations.m */; };
+		8D4CA64C1C0DB96200137121 /* LWWatchFaceWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA64B1C0DB96200137121 /* LWWatchFaceWeather.m */; };
+		8D4CA6591C0DC93300137121 /* LWWatchFaceChrono.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6581C0DC93300137121 /* LWWatchFaceChrono.m */; };
+		8D4CA66A1C0DCEEF00137121 /* LWWatchFaceXLarge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6671C0DCDF300137121 /* LWWatchFaceXLarge.m */; };
+		8D4CA66E1C0E03F300137121 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA66D1C0E03F300137121 /* CoreLocation.framework */; };
+		8D4CA6701C0E1DC900137121 /* WeatherIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CA66F1C0E1DC900137121 /* WeatherIcons.bundle */; };
+		8D4CA6721C0E33B300137121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CA6711C0E33B300137121 /* Main.storyboard */; };
+		8D4CA67B1C0E342D00137121 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6741C0E342D00137121 /* SettingsViewController.m */; };
+		8D4CA67C1C0E342D00137121 /* WatchFaceSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6761C0E342D00137121 /* WatchFaceSettingsViewController.m */; };
+		8D4CA67D1C0E342D00137121 /* PrivacySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6781C0E342D00137121 /* PrivacySettingsViewController.m */; };
+		8D4CA67E1C0E342D00137121 /* GraphicsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA67A1C0E342D00137121 /* GraphicsSettingsViewController.m */; };
+		8D6085521C22CD8B00F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085491C22CD8B00F15C35 /* ColorSelector.m */; };
+		8D6085531C22CD8B00F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854B1C22CD8B00F15C35 /* WatchCustomizations.m */; };
+		8D6085541C22CD8B00F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854D1C22CD8B00F15C35 /* WatchFaceBase.m */; };
+		8D6085551C22CD8B00F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854F1C22CD8B00F15C35 /* WatchHands.m */; };
+		8D6085561C22CD8B00F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085511C22CD8B00F15C35 /* WatchIndicators.m */; };
+		8D6085591C22CE0C00F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085491C22CD8B00F15C35 /* ColorSelector.m */; };
+		8D60855B1C22CE0C00F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854B1C22CD8B00F15C35 /* WatchCustomizations.m */; };
+		8D60855D1C22CE0C00F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854D1C22CD8B00F15C35 /* WatchFaceBase.m */; };
+		8D60855F1C22CE0C00F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60854F1C22CD8B00F15C35 /* WatchHands.m */; };
+		8D6085611C22CE0C00F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085511C22CD8B00F15C35 /* WatchIndicators.m */; };
+		8D6085621C22CE3200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D6085631C22CE3200F15C35 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D6085651C22CEEB00F15C35 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D6085641C22CEEB00F15C35 /* entitlements.xml */; };
+		8D6085701C2373A200F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085671C2373A200F15C35 /* ColorSelector.m */; };
+		8D6085711C2373A200F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085691C2373A200F15C35 /* WatchCustomizations.m */; };
+		8D6085721C2373A200F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60856B1C2373A200F15C35 /* WatchFaceBase.m */; };
+		8D6085731C2373A200F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60856D1C2373A200F15C35 /* WatchHands.m */; };
+		8D6085741C2373A200F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60856F1C2373A200F15C35 /* WatchIndicators.m */; };
+		8D6085761C2373C200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D6085771C2373C200F15C35 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D6085791C2373FC00F15C35 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D6085781C2373FC00F15C35 /* entitlements.xml */; };
+		8D6085841C2374C000F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60857B1C2374C000F15C35 /* ColorSelector.m */; };
+		8D6085851C2374C000F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60857D1C2374C000F15C35 /* WatchCustomizations.m */; };
+		8D6085861C2374C000F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60857F1C2374C000F15C35 /* WatchFaceBase.m */; };
+		8D6085871C2374C000F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085811C2374C000F15C35 /* WatchHands.m */; };
+		8D6085881C2374C000F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085831C2374C000F15C35 /* WatchIndicators.m */; };
+		8D60858A1C2374F500F15C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D60858B1C2374FA00F15C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D60858C1C2374FF00F15C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4CA5C71C0A6EA100137121 /* UIKit.framework */; };
+		8D60858D1C23751200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D60858E1C23751200F15C35 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D6085901C23753500F15C35 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D60858F1C23753500F15C35 /* entitlements.xml */; };
+		8D6085921C23753E00F15C35 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D6085911C23753E00F15C35 /* entitlements.xml */; };
+		8D6085941C23754500F15C35 /* entitlements.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D6085931C23754500F15C35 /* entitlements.xml */; };
+		8D60859F1C23773000F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085961C23773000F15C35 /* ColorSelector.m */; };
+		8D6085A01C23773000F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085981C23773000F15C35 /* WatchCustomizations.m */; };
+		8D6085A11C23773000F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60859A1C23773000F15C35 /* WatchFaceBase.m */; };
+		8D6085A21C23773000F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60859C1C23773000F15C35 /* WatchHands.m */; };
+		8D6085A31C23773000F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60859E1C23773000F15C35 /* WatchIndicators.m */; };
+		8D6085A51C23776300F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D6085A61C23776300F15C35 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D6085B11C23777900F15C35 /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085A81C23777900F15C35 /* ColorSelector.m */; };
+		8D6085B21C23777900F15C35 /* WatchCustomizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085AA1C23777900F15C35 /* WatchCustomizations.m */; };
+		8D6085B31C23777900F15C35 /* WatchFaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085AC1C23777900F15C35 /* WatchFaceBase.m */; };
+		8D6085B41C23777900F15C35 /* WatchHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085AE1C23777900F15C35 /* WatchHands.m */; };
+		8D6085B51C23777900F15C35 /* WatchIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6085B01C23777900F15C35 /* WatchIndicators.m */; };
+		8D6085B71C23779300F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */; };
+		8D6085B81C23779300F15C35 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CA6261C0B199100137121 /* easing.c */; };
+		8D69B8431C13A85B00A17A17 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B8411C13A85B00A17A17 /* LaunchScreen.png */; };
+		8D69B8441C13A85B00A17A17 /* LaunchScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B8421C13A85B00A17A17 /* LaunchScreen@2x.png */; };
+		8D69B8471C13B24000A17A17 /* UIDataSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B8461C13B24000A17A17 /* UIDataSwitch.m */; };
+		8D8888091C0EEBFE004F953A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D88880B1C0EEBFE004F953A /* InfoPlist.strings */; };
+		8D8888171C0EEC9F004F953A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8888191C0EEC9F004F953A /* InfoPlist.strings */; };
+		8D8888251C0EED50004F953A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8888271C0EED50004F953A /* InfoPlist.strings */; };
+		8D8888331C0EEE0F004F953A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8888351C0EEE0F004F953A /* InfoPlist.strings */; };
+		8D8888421C0EEEAD004F953A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D8888441C0EEEAD004F953A /* InfoPlist.strings */; };
+		8D9686E71C10F72000A34338 /* icon-ipad-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D41C10F72000A34338 /* icon-ipad-29.png */; };
+		8D9686E81C10F72000A34338 /* icon-ipad-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D51C10F72000A34338 /* icon-ipad-29@2x.png */; };
+		8D9686E91C10F72000A34338 /* icon-ipad-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D61C10F72000A34338 /* icon-ipad-40.png */; };
+		8D9686EA1C10F72000A34338 /* icon-ipad-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D71C10F72000A34338 /* icon-ipad-40@2x.png */; };
+		8D9686EB1C10F72000A34338 /* icon-ipad-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D81C10F72000A34338 /* icon-ipad-76.png */; };
+		8D9686EC1C10F72000A34338 /* icon-ipad-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686D91C10F72000A34338 /* icon-ipad-76@2x.png */; };
+		8D9686ED1C10F72000A34338 /* icon-ipad-83p5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DA1C10F72000A34338 /* icon-ipad-83p5.png */; };
+		8D9686EE1C10F72000A34338 /* icon-ipad-83p5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DB1C10F72000A34338 /* icon-ipad-83p5@2x.png */; };
+		8D9686EF1C10F72000A34338 /* icon-iphone-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DC1C10F72000A34338 /* icon-iphone-29.png */; };
+		8D9686F01C10F72000A34338 /* icon-iphone-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DD1C10F72000A34338 /* icon-iphone-29@2x.png */; };
+		8D9686F11C10F72000A34338 /* icon-iphone-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DE1C10F72000A34338 /* icon-iphone-29@3x.png */; };
+		8D9686F21C10F72000A34338 /* icon-iphone-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686DF1C10F72000A34338 /* icon-iphone-40.png */; };
+		8D9686F31C10F72000A34338 /* icon-iphone-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686E01C10F72000A34338 /* icon-iphone-40@2x.png */; };
+		8D9686F41C10F72000A34338 /* icon-iphone-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686E11C10F72000A34338 /* icon-iphone-40@3x.png */; };
+		8D9686F51C10F72000A34338 /* icon-iphone-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686E21C10F72000A34338 /* icon-iphone-60.png */; };
+		8D9686F61C10F72000A34338 /* icon-iphone-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686E31C10F72000A34338 /* icon-iphone-60@2x.png */; };
+		8D9686F71C10F72000A34338 /* icon-iphone-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9686E41C10F72000A34338 /* icon-iphone-60@3x.png */; };
+		8DCBD6911C0E4E5B00D06465 /* WatchPreferencesIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBD6901C0E4E5B00D06465 /* WatchPreferencesIcons.bundle */; };
+		8DD639261C0F0432008FD729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD639251C0F0432008FD729 /* LaunchScreen.storyboard */; };
+		8DE588441C110DFA00C88347 /* testingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE588431C110DFA00C88347 /* testingViewController.m */; };
+		8DF601F01C50D1690047527A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF601EF1C50D1690047527A /* InfoPlist.strings */; };
+		8DF601F11C50DAA00047527A /* Simple.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D4CA5BE1C0A6E1B00137121 /* Simple.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF601F21C50DAA00047527A /* Color.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D4CA5E31C0A75EE00137121 /* Color.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF601F31C50DAA00047527A /* Weather.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D4CA6431C0DB8CD00137121 /* Weather.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF601F41C50DAA00047527A /* Chronograph.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D4CA6511C0DC8F700137121 /* Chronograph.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF601F51C50DAA00047527A /* X-Large.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D4CA6601C0DCDBC00137121 /* X-Large.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF601F61C50DAA00047527A /* Mickey.watchface in Copy Watch Faces */ = {isa = PBXBuildFile; fileRef = 8D237F431C4D98C900606524 /* Mickey.watchface */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D4CA5DC1C0A716A00137121 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8D4CA62A1C0B294300137121 /* WatchFaceBase.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6085421C22BE9900F15C35 /* Copy Watch Faces */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8DF601F11C50DAA00047527A /* Simple.watchface in Copy Watch Faces */,
+				8DF601F21C50DAA00047527A /* Color.watchface in Copy Watch Faces */,
+				8DF601F31C50DAA00047527A /* Weather.watchface in Copy Watch Faces */,
+				8DF601F41C50DAA00047527A /* Chronograph.watchface in Copy Watch Faces */,
+				8DF601F51C50DAA00047527A /* X-Large.watchface in Copy Watch Faces */,
+				8DF601F61C50DAA00047527A /* Mickey.watchface in Copy Watch Faces */,
+			);
+			name = "Copy Watch Faces";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D237F431C4D98C900606524 /* Mickey.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mickey.watchface; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D237FB11C4E2E8200606524 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = "<group>"; };
+		8D237FB21C4E2E8200606524 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = "<group>"; };
+		8D237FB31C4E2E8200606524 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = "<group>"; };
+		8D237FB41C4E2E8200606524 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = "<group>"; };
+		8D237FB51C4E2E8200606524 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = "<group>"; };
+		8D237FB61C4E2E8200606524 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = "<group>"; };
+		8D237FB71C4E2E8200606524 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = "<group>"; };
+		8D237FB81C4E2E8200606524 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = "<group>"; };
+		8D237FB91C4E2E8200606524 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = "<group>"; };
+		8D237FBA1C4E2E8200606524 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = "<group>"; };
+		8D237FC01C4E2EB900606524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mickey/Info.plist; sourceTree = "<group>"; };
+		8D237FC11C4E2F3400606524 /* LWWatchFaceMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWWatchFaceMouse.h; path = Mickey/LWWatchFaceMouse.h; sourceTree = "<group>"; };
+		8D237FC21C4E2F3400606524 /* LWWatchFaceMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWWatchFaceMouse.m; path = Mickey/LWWatchFaceMouse.m; sourceTree = "<group>"; };
+		8D237FC41C4E2F7F00606524 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = entitlements.xml; path = Mickey/entitlements.xml; sourceTree = "<group>"; };
+		8D237FE41C4E313F00606524 /* bg_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_320.png; path = Mickey/bg_320.png; sourceTree = "<group>"; };
+		8D237FE51C4E313F00606524 /* body_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = body_320.png; path = Mickey/body_320.png; sourceTree = "<group>"; };
+		8D237FE61C4E313F00606524 /* eyes01_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyes01_320.png; path = Mickey/eyes01_320.png; sourceTree = "<group>"; };
+		8D237FE71C4E313F00606524 /* eyes02_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyes02_320.png; path = Mickey/eyes02_320.png; sourceTree = "<group>"; };
+		8D237FE81C4E313F00606524 /* eyes03_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyes03_320.png; path = Mickey/eyes03_320.png; sourceTree = "<group>"; };
+		8D237FE91C4E313F00606524 /* hand_hour_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hand_hour_320.png; path = Mickey/hand_hour_320.png; sourceTree = "<group>"; };
+		8D237FEA1C4E313F00606524 /* hand_minute_320_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hand_minute_320_1.png; path = Mickey/hand_minute_320_1.png; sourceTree = "<group>"; };
+		8D237FEB1C4E313F00606524 /* hand_minute_320_alt_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hand_minute_320_alt_2.png; path = Mickey/hand_minute_320_alt_2.png; sourceTree = "<group>"; };
+		8D237FEC1C4E313F00606524 /* head_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_320.png; path = Mickey/head_320.png; sourceTree = "<group>"; };
+		8D237FED1C4E313F00606524 /* shoe01_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoe01_320.png; path = Mickey/shoe01_320.png; sourceTree = "<group>"; };
+		8D237FEE1C4E313F00606524 /* shoe02_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoe02_320.png; path = Mickey/shoe02_320.png; sourceTree = "<group>"; };
+		8D237FEF1C4E313F00606524 /* shoe03_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoe03_320.png; path = Mickey/shoe03_320.png; sourceTree = "<group>"; };
+		8D237FF01C4E313F00606524 /* shoe04_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoe04_320.png; path = Mickey/shoe04_320.png; sourceTree = "<group>"; };
+		8D237FF11C4E313F00606524 /* shoe05_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shoe05_320.png; path = Mickey/shoe05_320.png; sourceTree = "<group>"; };
+		8D2380001C4E458800606524 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D4CA5661C0A65BE00137121 /* LockWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA56A1C0A65BE00137121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D4CA56C1C0A65BE00137121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D4CA56D1C0A65BE00137121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D4CA56F1C0A65BE00137121 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D4CA5701C0A65BE00137121 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D4CA5751C0A65BE00137121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D4CA57A1C0A65BE00137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA5BE1C0A6E1B00137121 /* Simple.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Simple.watchface; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA5C01C0A6E1B00137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA5C41C0A6E6100137121 /* LWWatchFaceSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWatchFaceSimple.h; sourceTree = "<group>"; };
+		8D4CA5C51C0A6E6100137121 /* LWWatchFaceSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWatchFaceSimple.m; sourceTree = "<group>"; };
+		8D4CA5C71C0A6EA100137121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D4CA5CE1C0A6F7600137121 /* WatchFaceBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchFaceBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA5D01C0A6F7600137121 /* WatchFaceBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchFaceBase.h; sourceTree = "<group>"; };
+		8D4CA5D21C0A6F7600137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA5D91C0A702300137121 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchFaceBase.m; sourceTree = "<group>"; };
+		8D4CA5E31C0A75EE00137121 /* Color.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Color.watchface; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA5E51C0A75EE00137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA5EC1C0A766800137121 /* LWWatchFaceColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWatchFaceColor.h; sourceTree = "<group>"; };
+		8D4CA5ED1C0A766800137121 /* LWWatchFaceColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWatchFaceColor.m; sourceTree = "<group>"; };
+		8D4CA5FD1C0B010600137121 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSelector.h; sourceTree = "<group>"; };
+		8D4CA5FE1C0B010600137121 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSelector.m; sourceTree = "<group>"; };
+		8D4CA6011C0B012E00137121 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchHands.h; sourceTree = "<group>"; };
+		8D4CA6021C0B012E00137121 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchHands.m; sourceTree = "<group>"; };
+		8D4CA60C1C0B124D00137121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA60E1C0B125800137121 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA60F1C0B126200137121 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6101C0B126800137121 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6111C0B127600137121 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6121C0B128000137121 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6131C0B129100137121 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6141C0B129600137121 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6151C0B129C00137121 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6161C0B12A800137121 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D4CA6181C0B148700137121 /* LWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWScrollView.h; sourceTree = "<group>"; };
+		8D4CA6191C0B148700137121 /* LWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWScrollView.m; sourceTree = "<group>"; };
+		8D4CA61B1C0B149F00137121 /* LWScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWScrollViewContainer.h; sourceTree = "<group>"; };
+		8D4CA61C1C0B149F00137121 /* LWScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWScrollViewContainer.m; sourceTree = "<group>"; };
+		8D4CA61E1C0B14C200137121 /* WatchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchButton.h; sourceTree = "<group>"; };
+		8D4CA61F1C0B14C200137121 /* WatchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchButton.m; sourceTree = "<group>"; };
+		8D4CA6241C0B199100137121 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		8D4CA6261C0B199100137121 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		8D4CA6271C0B199100137121 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		8D4CA6331C0CF9B000137121 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchIndicators.h; sourceTree = "<group>"; };
+		8D4CA6341C0CF9B000137121 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchIndicators.m; sourceTree = "<group>"; };
+		8D4CA6381C0D986100137121 /* WatchImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WatchImages.bundle; sourceTree = "<group>"; };
+		8D4CA63A1C0D995900137121 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchCustomizations.h; sourceTree = "<group>"; };
+		8D4CA63B1C0D995900137121 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchCustomizations.m; sourceTree = "<group>"; };
+		8D4CA6431C0DB8CD00137121 /* Weather.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weather.watchface; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA6451C0DB8CD00137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA64A1C0DB96200137121 /* LWWatchFaceWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWatchFaceWeather.h; sourceTree = "<group>"; };
+		8D4CA64B1C0DB96200137121 /* LWWatchFaceWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWatchFaceWeather.m; sourceTree = "<group>"; };
+		8D4CA6511C0DC8F700137121 /* Chronograph.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chronograph.watchface; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA6531C0DC8F700137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA6571C0DC93300137121 /* LWWatchFaceChrono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWatchFaceChrono.h; sourceTree = "<group>"; };
+		8D4CA6581C0DC93300137121 /* LWWatchFaceChrono.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWatchFaceChrono.m; sourceTree = "<group>"; };
+		8D4CA6601C0DCDBC00137121 /* X-Large.watchface */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-Large.watchface"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4CA6621C0DCDBC00137121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CA6661C0DCDF300137121 /* LWWatchFaceXLarge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWatchFaceXLarge.h; sourceTree = "<group>"; };
+		8D4CA6671C0DCDF300137121 /* LWWatchFaceXLarge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWatchFaceXLarge.m; sourceTree = "<group>"; };
+		8D4CA66D1C0E03F300137121 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8D4CA66F1C0E1DC900137121 /* WeatherIcons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WeatherIcons.bundle; path = ../../WeatherIcons.bundle; sourceTree = "<group>"; };
+		8D4CA6711C0E33B300137121 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8D4CA6731C0E342D00137121 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8D4CA6741C0E342D00137121 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8D4CA6751C0E342D00137121 /* WatchFaceSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchFaceSettingsViewController.h; sourceTree = "<group>"; };
+		8D4CA6761C0E342D00137121 /* WatchFaceSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchFaceSettingsViewController.m; sourceTree = "<group>"; };
+		8D4CA6771C0E342D00137121 /* PrivacySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacySettingsViewController.h; sourceTree = "<group>"; };
+		8D4CA6781C0E342D00137121 /* PrivacySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacySettingsViewController.m; sourceTree = "<group>"; };
+		8D4CA6791C0E342D00137121 /* GraphicsSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsSettingsViewController.h; sourceTree = "<group>"; };
+		8D4CA67A1C0E342D00137121 /* GraphicsSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsSettingsViewController.m; sourceTree = "<group>"; };
+		8D6085481C22CD8B00F15C35 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = SOURCE_ROOT; };
+		8D6085491C22CD8B00F15C35 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = SOURCE_ROOT; };
+		8D60854A1C22CD8B00F15C35 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = SOURCE_ROOT; };
+		8D60854B1C22CD8B00F15C35 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = SOURCE_ROOT; };
+		8D60854C1C22CD8B00F15C35 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = SOURCE_ROOT; };
+		8D60854D1C22CD8B00F15C35 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = SOURCE_ROOT; };
+		8D60854E1C22CD8B00F15C35 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = SOURCE_ROOT; };
+		8D60854F1C22CD8B00F15C35 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = SOURCE_ROOT; };
+		8D6085501C22CD8B00F15C35 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = SOURCE_ROOT; };
+		8D6085511C22CD8B00F15C35 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = SOURCE_ROOT; };
+		8D6085641C22CEEB00F15C35 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		8D6085661C2373A200F15C35 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = SOURCE_ROOT; };
+		8D6085671C2373A200F15C35 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = SOURCE_ROOT; };
+		8D6085681C2373A200F15C35 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = SOURCE_ROOT; };
+		8D6085691C2373A200F15C35 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = SOURCE_ROOT; };
+		8D60856A1C2373A200F15C35 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = SOURCE_ROOT; };
+		8D60856B1C2373A200F15C35 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = SOURCE_ROOT; };
+		8D60856C1C2373A200F15C35 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = SOURCE_ROOT; };
+		8D60856D1C2373A200F15C35 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = SOURCE_ROOT; };
+		8D60856E1C2373A200F15C35 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = SOURCE_ROOT; };
+		8D60856F1C2373A200F15C35 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = SOURCE_ROOT; };
+		8D6085781C2373FC00F15C35 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		8D60857A1C2374C000F15C35 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = SOURCE_ROOT; };
+		8D60857B1C2374C000F15C35 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = SOURCE_ROOT; };
+		8D60857C1C2374C000F15C35 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = SOURCE_ROOT; };
+		8D60857D1C2374C000F15C35 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = SOURCE_ROOT; };
+		8D60857E1C2374C000F15C35 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = SOURCE_ROOT; };
+		8D60857F1C2374C000F15C35 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = SOURCE_ROOT; };
+		8D6085801C2374C000F15C35 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = SOURCE_ROOT; };
+		8D6085811C2374C000F15C35 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = SOURCE_ROOT; };
+		8D6085821C2374C000F15C35 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = SOURCE_ROOT; };
+		8D6085831C2374C000F15C35 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = SOURCE_ROOT; };
+		8D60858F1C23753500F15C35 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		8D6085911C23753E00F15C35 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		8D6085931C23754500F15C35 /* entitlements.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = entitlements.xml; sourceTree = "<group>"; };
+		8D6085951C23773000F15C35 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = SOURCE_ROOT; };
+		8D6085961C23773000F15C35 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = SOURCE_ROOT; };
+		8D6085971C23773000F15C35 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = SOURCE_ROOT; };
+		8D6085981C23773000F15C35 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = SOURCE_ROOT; };
+		8D6085991C23773000F15C35 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = SOURCE_ROOT; };
+		8D60859A1C23773000F15C35 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = SOURCE_ROOT; };
+		8D60859B1C23773000F15C35 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = SOURCE_ROOT; };
+		8D60859C1C23773000F15C35 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = SOURCE_ROOT; };
+		8D60859D1C23773000F15C35 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = SOURCE_ROOT; };
+		8D60859E1C23773000F15C35 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = SOURCE_ROOT; };
+		8D6085A71C23777900F15C35 /* ColorSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSelector.h; path = WatchFaceBase/ColorSelector.h; sourceTree = SOURCE_ROOT; };
+		8D6085A81C23777900F15C35 /* ColorSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSelector.m; path = WatchFaceBase/ColorSelector.m; sourceTree = SOURCE_ROOT; };
+		8D6085A91C23777900F15C35 /* WatchCustomizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCustomizations.h; path = WatchFaceBase/WatchCustomizations.h; sourceTree = SOURCE_ROOT; };
+		8D6085AA1C23777900F15C35 /* WatchCustomizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchCustomizations.m; path = WatchFaceBase/WatchCustomizations.m; sourceTree = SOURCE_ROOT; };
+		8D6085AB1C23777900F15C35 /* WatchFaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchFaceBase.h; path = WatchFaceBase/WatchFaceBase.h; sourceTree = SOURCE_ROOT; };
+		8D6085AC1C23777900F15C35 /* WatchFaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchFaceBase.m; path = WatchFaceBase/WatchFaceBase.m; sourceTree = SOURCE_ROOT; };
+		8D6085AD1C23777900F15C35 /* WatchHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchHands.h; path = WatchFaceBase/WatchHands.h; sourceTree = SOURCE_ROOT; };
+		8D6085AE1C23777900F15C35 /* WatchHands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchHands.m; path = WatchFaceBase/WatchHands.m; sourceTree = SOURCE_ROOT; };
+		8D6085AF1C23777900F15C35 /* WatchIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchIndicators.h; path = WatchFaceBase/WatchIndicators.h; sourceTree = SOURCE_ROOT; };
+		8D6085B01C23777900F15C35 /* WatchIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchIndicators.m; path = WatchFaceBase/WatchIndicators.m; sourceTree = SOURCE_ROOT; };
+		8D69B8411C13A85B00A17A17 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		8D69B8421C13A85B00A17A17 /* LaunchScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen@2x.png"; sourceTree = "<group>"; };
+		8D69B8451C13B24000A17A17 /* UIDataSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDataSwitch.h; sourceTree = "<group>"; };
+		8D69B8461C13B24000A17A17 /* UIDataSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDataSwitch.m; sourceTree = "<group>"; };
+		8D88880A1C0EEBFE004F953A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88880C1C0EEC01004F953A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88880D1C0EEC02004F953A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88880E1C0EEC03004F953A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88880F1C0EEC04004F953A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888101C0EEC04004F953A /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888111C0EEC05004F953A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888121C0EEC06004F953A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888131C0EEC07004F953A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888141C0EEC07004F953A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888181C0EEC9F004F953A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881A1C0EECA2004F953A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881B1C0EECA3004F953A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881C1C0EECA3004F953A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881D1C0EECA4004F953A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881E1C0EECA4004F953A /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88881F1C0EECA5004F953A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888201C0EECA5004F953A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888211C0EECA6004F953A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888221C0EECA6004F953A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888261C0EED50004F953A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888281C0EED53004F953A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888291C0EED54004F953A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882A1C0EED54004F953A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882B1C0EED55004F953A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882C1C0EED56004F953A /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882D1C0EED57004F953A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882E1C0EED58004F953A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88882F1C0EED5A004F953A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888301C0EED5B004F953A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888341C0EEE0F004F953A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888361C0EEE11004F953A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888371C0EEE12004F953A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888381C0EEE13004F953A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888391C0EEE14004F953A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88883A1C0EEE14004F953A /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88883B1C0EEE15004F953A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88883C1C0EEE16004F953A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88883D1C0EEE18004F953A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88883E1C0EEE18004F953A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888431C0EEEAD004F953A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888451C0EEEAF004F953A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888461C0EEEB0004F953A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888471C0EEEB1004F953A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888481C0EEEB1004F953A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D8888491C0EEEB2004F953A /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88884A1C0EEEB3004F953A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88884B1C0EEEB4004F953A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88884C1C0EEEB5004F953A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D88884D1C0EEEB6004F953A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D9686D41C10F72000A34338 /* icon-ipad-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-29.png"; sourceTree = "<group>"; };
+		8D9686D51C10F72000A34338 /* icon-ipad-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-29@2x.png"; sourceTree = "<group>"; };
+		8D9686D61C10F72000A34338 /* icon-ipad-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-40.png"; sourceTree = "<group>"; };
+		8D9686D71C10F72000A34338 /* icon-ipad-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-40@2x.png"; sourceTree = "<group>"; };
+		8D9686D81C10F72000A34338 /* icon-ipad-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-76.png"; sourceTree = "<group>"; };
+		8D9686D91C10F72000A34338 /* icon-ipad-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-76@2x.png"; sourceTree = "<group>"; };
+		8D9686DA1C10F72000A34338 /* icon-ipad-83p5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-83p5.png"; sourceTree = "<group>"; };
+		8D9686DB1C10F72000A34338 /* icon-ipad-83p5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad-83p5@2x.png"; sourceTree = "<group>"; };
+		8D9686DC1C10F72000A34338 /* icon-iphone-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-29.png"; sourceTree = "<group>"; };
+		8D9686DD1C10F72000A34338 /* icon-iphone-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-29@2x.png"; sourceTree = "<group>"; };
+		8D9686DE1C10F72000A34338 /* icon-iphone-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-29@3x.png"; sourceTree = "<group>"; };
+		8D9686DF1C10F72000A34338 /* icon-iphone-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-40.png"; sourceTree = "<group>"; };
+		8D9686E01C10F72000A34338 /* icon-iphone-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-40@2x.png"; sourceTree = "<group>"; };
+		8D9686E11C10F72000A34338 /* icon-iphone-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-40@3x.png"; sourceTree = "<group>"; };
+		8D9686E21C10F72000A34338 /* icon-iphone-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-60.png"; sourceTree = "<group>"; };
+		8D9686E31C10F72000A34338 /* icon-iphone-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-60@2x.png"; sourceTree = "<group>"; };
+		8D9686E41C10F72000A34338 /* icon-iphone-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone-60@3x.png"; sourceTree = "<group>"; };
+		8DCBD6901C0E4E5B00D06465 /* WatchPreferencesIcons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WatchPreferencesIcons.bundle; sourceTree = "<group>"; };
+		8DD639251C0F0432008FD729 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DE588421C110DFA00C88347 /* testingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testingViewController.h; sourceTree = "<group>"; };
+		8DE588431C110DFA00C88347 /* testingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testingViewController.m; sourceTree = "<group>"; };
+		8DF601EF1C50D1690047527A /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Mickey/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D237F3A1C4D98C900606524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D237F3B1C4D98C900606524 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5631C0A65BE00137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5BB1C0A6E1B00137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4CA5C81C0A6EA100137121 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5CA1C0A6F7600137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2380011C4E458800606524 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5E01C0A75EE00137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4CA5EB1C0A764A00137121 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA6401C0DB8CD00137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60858A1C2374F500F15C35 /* UIKit.framework in Frameworks */,
+				8D4CA66E1C0E03F300137121 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA64E1C0DC8F700137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60858B1C2374FA00F15C35 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA65D1C0DCDBC00137121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60858C1C2374FF00F15C35 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D237FAF1C4E2E5200606524 /* Mickey */ = {
+			isa = PBXGroup;
+			children = (
+				8D237FE21C4E2FB900606524 /* Images */,
+				8D237FB01C4E2E6F00606524 /* WatchFaceBase */,
+				8D237FC01C4E2EB900606524 /* Info.plist */,
+				8DF601EF1C50D1690047527A /* InfoPlist.strings */,
+				8D237FC11C4E2F3400606524 /* LWWatchFaceMouse.h */,
+				8D237FC21C4E2F3400606524 /* LWWatchFaceMouse.m */,
+				8D237FC41C4E2F7F00606524 /* entitlements.xml */,
+			);
+			name = Mickey;
+			sourceTree = "<group>";
+		};
+		8D237FB01C4E2E6F00606524 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D237FB11C4E2E8200606524 /* ColorSelector.h */,
+				8D237FB21C4E2E8200606524 /* ColorSelector.m */,
+				8D237FB31C4E2E8200606524 /* WatchCustomizations.h */,
+				8D237FB41C4E2E8200606524 /* WatchCustomizations.m */,
+				8D237FB51C4E2E8200606524 /* WatchFaceBase.h */,
+				8D237FB61C4E2E8200606524 /* WatchFaceBase.m */,
+				8D237FB71C4E2E8200606524 /* WatchHands.h */,
+				8D237FB81C4E2E8200606524 /* WatchHands.m */,
+				8D237FB91C4E2E8200606524 /* WatchIndicators.h */,
+				8D237FBA1C4E2E8200606524 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D237FE21C4E2FB900606524 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8D237FE41C4E313F00606524 /* bg_320.png */,
+				8D237FE51C4E313F00606524 /* body_320.png */,
+				8D237FE61C4E313F00606524 /* eyes01_320.png */,
+				8D237FE71C4E313F00606524 /* eyes02_320.png */,
+				8D237FE81C4E313F00606524 /* eyes03_320.png */,
+				8D237FE91C4E313F00606524 /* hand_hour_320.png */,
+				8D237FEA1C4E313F00606524 /* hand_minute_320_1.png */,
+				8D237FEB1C4E313F00606524 /* hand_minute_320_alt_2.png */,
+				8D237FEC1C4E313F00606524 /* head_320.png */,
+				8D237FED1C4E313F00606524 /* shoe01_320.png */,
+				8D237FEE1C4E313F00606524 /* shoe02_320.png */,
+				8D237FEF1C4E313F00606524 /* shoe03_320.png */,
+				8D237FF01C4E313F00606524 /* shoe04_320.png */,
+				8D237FF11C4E313F00606524 /* shoe05_320.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8D4CA55D1C0A65BE00137121 = {
+			isa = PBXGroup;
+			children = (
+				8D2380001C4E458800606524 /* QuartzCore.framework */,
+				8D4CA66D1C0E03F300137121 /* CoreLocation.framework */,
+				8D4CA5681C0A65BE00137121 /* LockWatch */,
+				8D4CA65A1C0DC93E00137121 /* Watch Faces */,
+				8D4CA5CF1C0A6F7600137121 /* WatchFaceBase */,
+				8D4CA5671C0A65BE00137121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D4CA5671C0A65BE00137121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA5661C0A65BE00137121 /* LockWatch.app */,
+				8D4CA5BE1C0A6E1B00137121 /* Simple.watchface */,
+				8D4CA5CE1C0A6F7600137121 /* WatchFaceBase.framework */,
+				8D4CA5E31C0A75EE00137121 /* Color.watchface */,
+				8D4CA6431C0DB8CD00137121 /* Weather.watchface */,
+				8D4CA6511C0DC8F700137121 /* Chronograph.watchface */,
+				8D4CA6601C0DCDBC00137121 /* X-Large.watchface */,
+				8D237F431C4D98C900606524 /* Mickey.watchface */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D4CA5681C0A65BE00137121 /* LockWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA6231C0B199100137121 /* AHEasing */,
+				8D4CA56C1C0A65BE00137121 /* AppDelegate.h */,
+				8D4CA56D1C0A65BE00137121 /* AppDelegate.m */,
+				8D4CA56F1C0A65BE00137121 /* ViewController.h */,
+				8D4CA5701C0A65BE00137121 /* ViewController.m */,
+				8D4CA6711C0E33B300137121 /* Main.storyboard */,
+				8D4CA5751C0A65BE00137121 /* Assets.xcassets */,
+				8DD639251C0F0432008FD729 /* LaunchScreen.storyboard */,
+				8D4CA57A1C0A65BE00137121 /* Info.plist */,
+				8D4CA67F1C0E343200137121 /* Settings */,
+				8D4CA6171C0B146600137121 /* LWClasses */,
+				8D4CA5691C0A65BE00137121 /* Supporting Files */,
+			);
+			path = LockWatch;
+			sourceTree = "<group>";
+		};
+		8D4CA5691C0A65BE00137121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D9686D41C10F72000A34338 /* icon-ipad-29.png */,
+				8D9686D51C10F72000A34338 /* icon-ipad-29@2x.png */,
+				8D9686D61C10F72000A34338 /* icon-ipad-40.png */,
+				8D9686D71C10F72000A34338 /* icon-ipad-40@2x.png */,
+				8D9686D81C10F72000A34338 /* icon-ipad-76.png */,
+				8D9686D91C10F72000A34338 /* icon-ipad-76@2x.png */,
+				8D9686DA1C10F72000A34338 /* icon-ipad-83p5.png */,
+				8D9686DB1C10F72000A34338 /* icon-ipad-83p5@2x.png */,
+				8D9686DC1C10F72000A34338 /* icon-iphone-29.png */,
+				8D9686DD1C10F72000A34338 /* icon-iphone-29@2x.png */,
+				8D9686DE1C10F72000A34338 /* icon-iphone-29@3x.png */,
+				8D9686DF1C10F72000A34338 /* icon-iphone-40.png */,
+				8D9686E01C10F72000A34338 /* icon-iphone-40@2x.png */,
+				8D9686E11C10F72000A34338 /* icon-iphone-40@3x.png */,
+				8D9686E21C10F72000A34338 /* icon-iphone-60.png */,
+				8D9686E31C10F72000A34338 /* icon-iphone-60@2x.png */,
+				8D9686E41C10F72000A34338 /* icon-iphone-60@3x.png */,
+				8D69B8411C13A85B00A17A17 /* LaunchScreen.png */,
+				8D69B8421C13A85B00A17A17 /* LaunchScreen@2x.png */,
+				8D4CA56A1C0A65BE00137121 /* main.m */,
+				8D4CA60D1C0B124D00137121 /* Localizable.strings */,
+				8DCBD6901C0E4E5B00D06465 /* WatchPreferencesIcons.bundle */,
+				8D4CA66F1C0E1DC900137121 /* WeatherIcons.bundle */,
+				8D4CA6381C0D986100137121 /* WatchImages.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D4CA5BF1C0A6E1B00137121 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085641C22CEEB00F15C35 /* entitlements.xml */,
+				8D4CA5C01C0A6E1B00137121 /* Info.plist */,
+				8D88880B1C0EEBFE004F953A /* InfoPlist.strings */,
+				8D4CA5C41C0A6E6100137121 /* LWWatchFaceSimple.h */,
+				8D4CA5C51C0A6E6100137121 /* LWWatchFaceSimple.m */,
+				8D6085571C22CD9300F15C35 /* WatchFaceBase */,
+				8D4CA5C71C0A6EA100137121 /* UIKit.framework */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		8D4CA5CF1C0A6F7600137121 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA5D01C0A6F7600137121 /* WatchFaceBase.h */,
+				8D4CA5D91C0A702300137121 /* WatchFaceBase.m */,
+				8D4CA6331C0CF9B000137121 /* WatchIndicators.h */,
+				8D4CA6341C0CF9B000137121 /* WatchIndicators.m */,
+				8D4CA6011C0B012E00137121 /* WatchHands.h */,
+				8D4CA6021C0B012E00137121 /* WatchHands.m */,
+				8D4CA63A1C0D995900137121 /* WatchCustomizations.h */,
+				8D4CA63B1C0D995900137121 /* WatchCustomizations.m */,
+				8D4CA5FD1C0B010600137121 /* ColorSelector.h */,
+				8D4CA5FE1C0B010600137121 /* ColorSelector.m */,
+				8D4CA5D21C0A6F7600137121 /* Info.plist */,
+			);
+			path = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D4CA5E41C0A75EE00137121 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085781C2373FC00F15C35 /* entitlements.xml */,
+				8D4CA5E51C0A75EE00137121 /* Info.plist */,
+				8D8888191C0EEC9F004F953A /* InfoPlist.strings */,
+				8D4CA5EC1C0A766800137121 /* LWWatchFaceColor.h */,
+				8D4CA5ED1C0A766800137121 /* LWWatchFaceColor.m */,
+				8D6085751C2373A800F15C35 /* WatchFaceBase */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		8D4CA6171C0B146600137121 /* LWClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA61E1C0B14C200137121 /* WatchButton.h */,
+				8D4CA61F1C0B14C200137121 /* WatchButton.m */,
+				8D4CA61B1C0B149F00137121 /* LWScrollViewContainer.h */,
+				8D4CA61C1C0B149F00137121 /* LWScrollViewContainer.m */,
+				8D4CA6181C0B148700137121 /* LWScrollView.h */,
+				8D4CA6191C0B148700137121 /* LWScrollView.m */,
+			);
+			name = LWClasses;
+			sourceTree = "<group>";
+		};
+		8D4CA6231C0B199100137121 /* AHEasing */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA6241C0B199100137121 /* CAKeyframeAnimation+AHEasing.h */,
+				8D4CA6251C0B199100137121 /* CAKeyframeAnimation+AHEasing.m */,
+				8D4CA6261C0B199100137121 /* easing.c */,
+				8D4CA6271C0B199100137121 /* easing.h */,
+			);
+			path = AHEasing;
+			sourceTree = "<group>";
+		};
+		8D4CA6441C0DB8CD00137121 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				8D60858F1C23753500F15C35 /* entitlements.xml */,
+				8D4CA6451C0DB8CD00137121 /* Info.plist */,
+				8D8888271C0EED50004F953A /* InfoPlist.strings */,
+				8D4CA64A1C0DB96200137121 /* LWWatchFaceWeather.h */,
+				8D4CA64B1C0DB96200137121 /* LWWatchFaceWeather.m */,
+				8D6085891C2374D600F15C35 /* WatchFaceBase */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		8D4CA6521C0DC8F700137121 /* Chronograph */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085911C23753E00F15C35 /* entitlements.xml */,
+				8D4CA6531C0DC8F700137121 /* Info.plist */,
+				8D8888351C0EEE0F004F953A /* InfoPlist.strings */,
+				8D4CA6571C0DC93300137121 /* LWWatchFaceChrono.h */,
+				8D4CA6581C0DC93300137121 /* LWWatchFaceChrono.m */,
+				8D6085A41C23774F00F15C35 /* WatchFaceBase */,
+			);
+			path = Chronograph;
+			sourceTree = "<group>";
+		};
+		8D4CA65A1C0DC93E00137121 /* Watch Faces */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA5BF1C0A6E1B00137121 /* Simple */,
+				8D4CA5E41C0A75EE00137121 /* Color */,
+				8D4CA6441C0DB8CD00137121 /* Weather */,
+				8D4CA6521C0DC8F700137121 /* Chronograph */,
+				8D4CA6611C0DCDBC00137121 /* X-Large */,
+				8D237FAF1C4E2E5200606524 /* Mickey */,
+			);
+			name = "Watch Faces";
+			sourceTree = "<group>";
+		};
+		8D4CA6611C0DCDBC00137121 /* X-Large */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085931C23754500F15C35 /* entitlements.xml */,
+				8D4CA6621C0DCDBC00137121 /* Info.plist */,
+				8D8888441C0EEEAD004F953A /* InfoPlist.strings */,
+				8D4CA6661C0DCDF300137121 /* LWWatchFaceXLarge.h */,
+				8D4CA6671C0DCDF300137121 /* LWWatchFaceXLarge.m */,
+				8D6085B61C23778000F15C35 /* WatchFaceBase */,
+			);
+			path = "X-Large";
+			sourceTree = "<group>";
+		};
+		8D4CA67F1C0E343200137121 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CA6731C0E342D00137121 /* SettingsViewController.h */,
+				8D4CA6741C0E342D00137121 /* SettingsViewController.m */,
+				8D4CA6751C0E342D00137121 /* WatchFaceSettingsViewController.h */,
+				8D4CA6761C0E342D00137121 /* WatchFaceSettingsViewController.m */,
+				8D4CA6771C0E342D00137121 /* PrivacySettingsViewController.h */,
+				8D4CA6781C0E342D00137121 /* PrivacySettingsViewController.m */,
+				8D4CA6791C0E342D00137121 /* GraphicsSettingsViewController.h */,
+				8D4CA67A1C0E342D00137121 /* GraphicsSettingsViewController.m */,
+				8DE588421C110DFA00C88347 /* testingViewController.h */,
+				8DE588431C110DFA00C88347 /* testingViewController.m */,
+				8D69B8451C13B24000A17A17 /* UIDataSwitch.h */,
+				8D69B8461C13B24000A17A17 /* UIDataSwitch.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8D6085571C22CD9300F15C35 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085481C22CD8B00F15C35 /* ColorSelector.h */,
+				8D6085491C22CD8B00F15C35 /* ColorSelector.m */,
+				8D60854A1C22CD8B00F15C35 /* WatchCustomizations.h */,
+				8D60854B1C22CD8B00F15C35 /* WatchCustomizations.m */,
+				8D60854C1C22CD8B00F15C35 /* WatchFaceBase.h */,
+				8D60854D1C22CD8B00F15C35 /* WatchFaceBase.m */,
+				8D60854E1C22CD8B00F15C35 /* WatchHands.h */,
+				8D60854F1C22CD8B00F15C35 /* WatchHands.m */,
+				8D6085501C22CD8B00F15C35 /* WatchIndicators.h */,
+				8D6085511C22CD8B00F15C35 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D6085751C2373A800F15C35 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085661C2373A200F15C35 /* ColorSelector.h */,
+				8D6085671C2373A200F15C35 /* ColorSelector.m */,
+				8D6085681C2373A200F15C35 /* WatchCustomizations.h */,
+				8D6085691C2373A200F15C35 /* WatchCustomizations.m */,
+				8D60856A1C2373A200F15C35 /* WatchFaceBase.h */,
+				8D60856B1C2373A200F15C35 /* WatchFaceBase.m */,
+				8D60856C1C2373A200F15C35 /* WatchHands.h */,
+				8D60856D1C2373A200F15C35 /* WatchHands.m */,
+				8D60856E1C2373A200F15C35 /* WatchIndicators.h */,
+				8D60856F1C2373A200F15C35 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D6085891C2374D600F15C35 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D60857A1C2374C000F15C35 /* ColorSelector.h */,
+				8D60857B1C2374C000F15C35 /* ColorSelector.m */,
+				8D60857C1C2374C000F15C35 /* WatchCustomizations.h */,
+				8D60857D1C2374C000F15C35 /* WatchCustomizations.m */,
+				8D60857E1C2374C000F15C35 /* WatchFaceBase.h */,
+				8D60857F1C2374C000F15C35 /* WatchFaceBase.m */,
+				8D6085801C2374C000F15C35 /* WatchHands.h */,
+				8D6085811C2374C000F15C35 /* WatchHands.m */,
+				8D6085821C2374C000F15C35 /* WatchIndicators.h */,
+				8D6085831C2374C000F15C35 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D6085A41C23774F00F15C35 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085951C23773000F15C35 /* ColorSelector.h */,
+				8D6085961C23773000F15C35 /* ColorSelector.m */,
+				8D6085971C23773000F15C35 /* WatchCustomizations.h */,
+				8D6085981C23773000F15C35 /* WatchCustomizations.m */,
+				8D6085991C23773000F15C35 /* WatchFaceBase.h */,
+				8D60859A1C23773000F15C35 /* WatchFaceBase.m */,
+				8D60859B1C23773000F15C35 /* WatchHands.h */,
+				8D60859C1C23773000F15C35 /* WatchHands.m */,
+				8D60859D1C23773000F15C35 /* WatchIndicators.h */,
+				8D60859E1C23773000F15C35 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+		8D6085B61C23778000F15C35 /* WatchFaceBase */ = {
+			isa = PBXGroup;
+			children = (
+				8D6085A71C23777900F15C35 /* ColorSelector.h */,
+				8D6085A81C23777900F15C35 /* ColorSelector.m */,
+				8D6085A91C23777900F15C35 /* WatchCustomizations.h */,
+				8D6085AA1C23777900F15C35 /* WatchCustomizations.m */,
+				8D6085AB1C23777900F15C35 /* WatchFaceBase.h */,
+				8D6085AC1C23777900F15C35 /* WatchFaceBase.m */,
+				8D6085AD1C23777900F15C35 /* WatchHands.h */,
+				8D6085AE1C23777900F15C35 /* WatchHands.m */,
+				8D6085AF1C23777900F15C35 /* WatchIndicators.h */,
+				8D6085B01C23777900F15C35 /* WatchIndicators.m */,
+			);
+			name = WatchFaceBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D4CA5CB1C0A6F7600137121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4CA6031C0B012E00137121 /* WatchHands.h in Headers */,
+				8D4CA5D11C0A6F7600137121 /* WatchFaceBase.h in Headers */,
+				8D4CA63C1C0D995900137121 /* WatchCustomizations.h in Headers */,
+				8D4CA6351C0CF9B000137121 /* WatchIndicators.h in Headers */,
+				8D4CA5FF1C0B010600137121 /* ColorSelector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D237F301C4D98C900606524 /* Mickey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D237F401C4D98C900606524 /* Build configuration list for PBXNativeTarget "Mickey" */;
+			buildPhases = (
+				8D237F311C4D98C900606524 /* Sources */,
+				8D237F3A1C4D98C900606524 /* Frameworks */,
+				8D237F3C1C4D98C900606524 /* Resources */,
+				8D237F3F1C4D98C900606524 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mickey;
+			productName = "X-Large";
+			productReference = 8D237F431C4D98C900606524 /* Mickey.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D4CA5651C0A65BE00137121 /* LockWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA57D1C0A65BE00137121 /* Build configuration list for PBXNativeTarget "LockWatch" */;
+			buildPhases = (
+				8D4CA5621C0A65BE00137121 /* Sources */,
+				8D4CA5631C0A65BE00137121 /* Frameworks */,
+				8D4CA5641C0A65BE00137121 /* Resources */,
+				8D4CA5DC1C0A716A00137121 /* Copy Frameworks */,
+				8D6085421C22BE9900F15C35 /* Copy Watch Faces */,
+				8D3039881C522BA4007D176B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockWatch;
+			productName = LockWatch;
+			productReference = 8D4CA5661C0A65BE00137121 /* LockWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D4CA5BD1C0A6E1B00137121 /* Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA5C11C0A6E1B00137121 /* Build configuration list for PBXNativeTarget "Simple" */;
+			buildPhases = (
+				8D4CA5BA1C0A6E1B00137121 /* Sources */,
+				8D4CA5BB1C0A6E1B00137121 /* Frameworks */,
+				8D4CA5BC1C0A6E1B00137121 /* Resources */,
+				8D745BEB1C257AF30055F463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simple;
+			productName = Simple;
+			productReference = 8D4CA5BE1C0A6E1B00137121 /* Simple.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D4CA5CD1C0A6F7600137121 /* WatchFaceBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA5D31C0A6F7600137121 /* Build configuration list for PBXNativeTarget "WatchFaceBase" */;
+			buildPhases = (
+				8D4CA5C91C0A6F7600137121 /* Sources */,
+				8D4CA5CA1C0A6F7600137121 /* Frameworks */,
+				8D4CA5CB1C0A6F7600137121 /* Headers */,
+				8D4CA5CC1C0A6F7600137121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchFaceBase;
+			productName = WatchFaceBase;
+			productReference = 8D4CA5CE1C0A6F7600137121 /* WatchFaceBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D4CA5E21C0A75EE00137121 /* Color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA5E61C0A75EE00137121 /* Build configuration list for PBXNativeTarget "Color" */;
+			buildPhases = (
+				8D4CA5DF1C0A75EE00137121 /* Sources */,
+				8D4CA5E01C0A75EE00137121 /* Frameworks */,
+				8D4CA5E11C0A75EE00137121 /* Resources */,
+				8D745BEC1C2590A60055F463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Color;
+			productName = Color;
+			productReference = 8D4CA5E31C0A75EE00137121 /* Color.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D4CA6421C0DB8CD00137121 /* Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA6461C0DB8CD00137121 /* Build configuration list for PBXNativeTarget "Weather" */;
+			buildPhases = (
+				8D4CA63F1C0DB8CD00137121 /* Sources */,
+				8D4CA6401C0DB8CD00137121 /* Frameworks */,
+				8D4CA6411C0DB8CD00137121 /* Resources */,
+				8D745BED1C2590AD0055F463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weather;
+			productName = Weather;
+			productReference = 8D4CA6431C0DB8CD00137121 /* Weather.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D4CA6501C0DC8F700137121 /* Chronograph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA6541C0DC8F700137121 /* Build configuration list for PBXNativeTarget "Chronograph" */;
+			buildPhases = (
+				8D4CA64D1C0DC8F700137121 /* Sources */,
+				8D4CA64E1C0DC8F700137121 /* Frameworks */,
+				8D4CA64F1C0DC8F700137121 /* Resources */,
+				8D745BEE1C2590B20055F463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronograph;
+			productName = Chronograph;
+			productReference = 8D4CA6511C0DC8F700137121 /* Chronograph.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D4CA65F1C0DCDBC00137121 /* X-Large */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4CA6631C0DCDBC00137121 /* Build configuration list for PBXNativeTarget "X-Large" */;
+			buildPhases = (
+				8D4CA65C1C0DCDBC00137121 /* Sources */,
+				8D4CA65D1C0DCDBC00137121 /* Frameworks */,
+				8D4CA65E1C0DCDBC00137121 /* Resources */,
+				8D745BEF1C2590B60055F463 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X-Large";
+			productName = "X-Large";
+			productReference = 8D4CA6601C0DCDBC00137121 /* X-Large.watchface */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D4CA55E1C0A65BE00137121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Janik Schmidt (Sniper_GER)";
+				TargetAttributes = {
+					8D4CA5651C0A65BE00137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = EDV7C8ZP77;
+					};
+					8D4CA5BD1C0A6E1B00137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8D4CA5CD1C0A6F7600137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = EDV7C8ZP77;
+					};
+					8D4CA5E21C0A75EE00137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8D4CA6421C0DB8CD00137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8D4CA6501C0DC8F700137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8D4CA65F1C0DCDBC00137121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D4CA5611C0A65BE00137121 /* Build configuration list for PBXProject "LockWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				it,
+				ja,
+				pl,
+				fi,
+				ar,
+				es,
+				fr,
+				nl,
+			);
+			mainGroup = 8D4CA55D1C0A65BE00137121;
+			productRefGroup = 8D4CA5671C0A65BE00137121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D4CA5651C0A65BE00137121 /* LockWatch */,
+				8D4CA5BD1C0A6E1B00137121 /* Simple */,
+				8D4CA5E21C0A75EE00137121 /* Color */,
+				8D4CA6421C0DB8CD00137121 /* Weather */,
+				8D4CA6501C0DC8F700137121 /* Chronograph */,
+				8D4CA65F1C0DCDBC00137121 /* X-Large */,
+				8D237F301C4D98C900606524 /* Mickey */,
+				8D4CA5CD1C0A6F7600137121 /* WatchFaceBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D237F3C1C4D98C900606524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF601F01C50D1690047527A /* InfoPlist.strings in Resources */,
+				8D237FC51C4E2F7F00606524 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5641C0A65BE00137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9686F11C10F72000A34338 /* icon-iphone-29@3x.png in Resources */,
+				8DCBD6911C0E4E5B00D06465 /* WatchPreferencesIcons.bundle in Resources */,
+				8D9686EC1C10F72000A34338 /* icon-ipad-76@2x.png in Resources */,
+				8D69B8441C13A85B00A17A17 /* LaunchScreen@2x.png in Resources */,
+				8D9686EB1C10F72000A34338 /* icon-ipad-76.png in Resources */,
+				8D4CA60B1C0B124D00137121 /* Localizable.strings in Resources */,
+				8D9686F01C10F72000A34338 /* icon-iphone-29@2x.png in Resources */,
+				8DD639261C0F0432008FD729 /* LaunchScreen.storyboard in Resources */,
+				8D9686E81C10F72000A34338 /* icon-ipad-29@2x.png in Resources */,
+				8D9686EF1C10F72000A34338 /* icon-iphone-29.png in Resources */,
+				8D9686F51C10F72000A34338 /* icon-iphone-60.png in Resources */,
+				8D9686ED1C10F72000A34338 /* icon-ipad-83p5.png in Resources */,
+				8D69B8431C13A85B00A17A17 /* LaunchScreen.png in Resources */,
+				8D9686F21C10F72000A34338 /* icon-iphone-40.png in Resources */,
+				8D9686E91C10F72000A34338 /* icon-ipad-40.png in Resources */,
+				8D4CA6721C0E33B300137121 /* Main.storyboard in Resources */,
+				8D9686EA1C10F72000A34338 /* icon-ipad-40@2x.png in Resources */,
+				8D4CA5761C0A65BE00137121 /* Assets.xcassets in Resources */,
+				8D4CA6391C0D986100137121 /* WatchImages.bundle in Resources */,
+				8D9686F61C10F72000A34338 /* icon-iphone-60@2x.png in Resources */,
+				8D9686F31C10F72000A34338 /* icon-iphone-40@2x.png in Resources */,
+				8D9686F41C10F72000A34338 /* icon-iphone-40@3x.png in Resources */,
+				8D4CA6701C0E1DC900137121 /* WeatherIcons.bundle in Resources */,
+				8D9686EE1C10F72000A34338 /* icon-ipad-83p5@2x.png in Resources */,
+				8D9686E71C10F72000A34338 /* icon-ipad-29.png in Resources */,
+				8D9686F71C10F72000A34338 /* icon-iphone-60@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5BC1C0A6E1B00137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8888091C0EEBFE004F953A /* InfoPlist.strings in Resources */,
+				8D6085651C22CEEB00F15C35 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5CC1C0A6F7600137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5E11C0A75EE00137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8888171C0EEC9F004F953A /* InfoPlist.strings in Resources */,
+				8D6085791C2373FC00F15C35 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA6411C0DB8CD00137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8888251C0EED50004F953A /* InfoPlist.strings in Resources */,
+				8D6085901C23753500F15C35 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA64F1C0DC8F700137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8888331C0EEE0F004F953A /* InfoPlist.strings in Resources */,
+				8D6085921C23753E00F15C35 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA65E1C0DCDBC00137121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8888421C0EEEAD004F953A /* InfoPlist.strings in Resources */,
+				8D6085941C23754500F15C35 /* entitlements.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D237F3F1C4D98C900606524 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+		8D3039881C522BA4007D176B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Modify this to your device's IP address or .local address.\nIP=\"localhost\"\nROOT_ENABLED=\"1\"\n\n# Verify that the build is not for a Simulator.\nif [ \"$NATIVE_ARCH\" != \"i386\" ] && [ \"$NATIVE_ARCH\" != \"x86_64\" ]; then\n\n# Kill running instance and remove the app folder.\nssh -p 2222 root@$IP \"killall '${TARGETNAME}'; rm -rf '/Applications/${WRAPPER_NAME}'\"\n\n# Self sign the build.\n/opt/theos/bin/ldid -S \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${TARGETNAME}\"\n\n# Copy app to device.\nscp -P 2222 -r \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" root@$IP:/Applications/\n\n# Clear UI cache to show app on homescreen.\nssh -p 2222 root@$IP su -c uicache mobile\n\n# Unlock device.\n#ssh -p 2222 root@$IP activator send com.bd452.bypass\n\n# Open app.\n#ssh -p 2222 root@$IP open `defaults read \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\" CFBundleIdentifier`\n\n# This part creates an OS X notification to let you know that the process is done.\n# You can get terminal-notifier from https://github.com/alloy/terminal-notifier.\n#/Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier -title \"Build Complete\" -message \"${PROJECT_NAME} installed on ${IP}.\"\n\nfi";
+		};
+		8D745BEB1C257AF30055F463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+		8D745BEC1C2590A60055F463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+		8D745BED1C2590AD0055F463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+		8D745BEE1C2590B20055F463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+		8D745BEF1C2590B60055F463 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${BUILT_PRODUCTS_DIR}\"/\"${EXECUTABLE_FOLDER_PATH}\n/opt/theos/bin/ldid -Sentitlements.xml ${EXECUTABLE_NAME}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D237F311C4D98C900606524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D237FBE1C4E2E8200606524 /* WatchHands.m in Sources */,
+				8D237F321C4D98C900606524 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D237F331C4D98C900606524 /* easing.c in Sources */,
+				8D237F371C4D98C900606524 /* WatchCustomizations.m in Sources */,
+				8D237F381C4D98C900606524 /* WatchFaceBase.m in Sources */,
+				8D237FBB1C4E2E8200606524 /* ColorSelector.m in Sources */,
+				8D237F391C4D98C900606524 /* WatchIndicators.m in Sources */,
+				8D237FC31C4E2F3400606524 /* LWWatchFaceMouse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5621C0A65BE00137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6085561C22CD8B00F15C35 /* WatchIndicators.m in Sources */,
+				8D4CA67E1C0E342D00137121 /* GraphicsSettingsViewController.m in Sources */,
+				8D6085541C22CD8B00F15C35 /* WatchFaceBase.m in Sources */,
+				8D4CA6291C0B199100137121 /* easing.c in Sources */,
+				8D4CA5711C0A65BE00137121 /* ViewController.m in Sources */,
+				8D6085531C22CD8B00F15C35 /* WatchCustomizations.m in Sources */,
+				8D69B8471C13B24000A17A17 /* UIDataSwitch.m in Sources */,
+				8D4CA56E1C0A65BE00137121 /* AppDelegate.m in Sources */,
+				8D4CA67B1C0E342D00137121 /* SettingsViewController.m in Sources */,
+				8D4CA67C1C0E342D00137121 /* WatchFaceSettingsViewController.m in Sources */,
+				8DE588441C110DFA00C88347 /* testingViewController.m in Sources */,
+				8D6085551C22CD8B00F15C35 /* WatchHands.m in Sources */,
+				8D4CA61A1C0B148700137121 /* LWScrollView.m in Sources */,
+				8D4CA6201C0B14C200137121 /* WatchButton.m in Sources */,
+				8D4CA61D1C0B149F00137121 /* LWScrollViewContainer.m in Sources */,
+				8D4CA67D1C0E342D00137121 /* PrivacySettingsViewController.m in Sources */,
+				8D4CA6281C0B199100137121 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D6085521C22CD8B00F15C35 /* ColorSelector.m in Sources */,
+				8D4CA56B1C0A65BE00137121 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5BA1C0A6E1B00137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6085621C22CE3200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D6085631C22CE3200F15C35 /* easing.c in Sources */,
+				8D6085591C22CE0C00F15C35 /* ColorSelector.m in Sources */,
+				8D60855B1C22CE0C00F15C35 /* WatchCustomizations.m in Sources */,
+				8D60855D1C22CE0C00F15C35 /* WatchFaceBase.m in Sources */,
+				8D60855F1C22CE0C00F15C35 /* WatchHands.m in Sources */,
+				8D6085611C22CE0C00F15C35 /* WatchIndicators.m in Sources */,
+				8D4CA5C61C0A6E6100137121 /* LWWatchFaceSimple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5C91C0A6F7600137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4CA63D1C0D995900137121 /* WatchCustomizations.m in Sources */,
+				8D4CA6311C0BC01200137121 /* easing.c in Sources */,
+				8D4CA6321C0BC01500137121 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D4CA6001C0B010600137121 /* ColorSelector.m in Sources */,
+				8D4CA6041C0B012E00137121 /* WatchHands.m in Sources */,
+				8D4CA5DA1C0A702300137121 /* WatchFaceBase.m in Sources */,
+				8D4CA6361C0CF9B000137121 /* WatchIndicators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA5DF1C0A75EE00137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6085761C2373C200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D6085771C2373C200F15C35 /* easing.c in Sources */,
+				8D6085701C2373A200F15C35 /* ColorSelector.m in Sources */,
+				8D6085731C2373A200F15C35 /* WatchHands.m in Sources */,
+				8D4CA5EE1C0A766800137121 /* LWWatchFaceColor.m in Sources */,
+				8D6085711C2373A200F15C35 /* WatchCustomizations.m in Sources */,
+				8D6085721C2373A200F15C35 /* WatchFaceBase.m in Sources */,
+				8D6085741C2373A200F15C35 /* WatchIndicators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA63F1C0DB8CD00137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60858D1C23751200F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D60858E1C23751200F15C35 /* easing.c in Sources */,
+				8D6085841C2374C000F15C35 /* ColorSelector.m in Sources */,
+				8D6085871C2374C000F15C35 /* WatchHands.m in Sources */,
+				8D4CA64C1C0DB96200137121 /* LWWatchFaceWeather.m in Sources */,
+				8D6085851C2374C000F15C35 /* WatchCustomizations.m in Sources */,
+				8D6085861C2374C000F15C35 /* WatchFaceBase.m in Sources */,
+				8D6085881C2374C000F15C35 /* WatchIndicators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA64D1C0DC8F700137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6085A51C23776300F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D6085A61C23776300F15C35 /* easing.c in Sources */,
+				8D60859F1C23773000F15C35 /* ColorSelector.m in Sources */,
+				8D6085A21C23773000F15C35 /* WatchHands.m in Sources */,
+				8D4CA6591C0DC93300137121 /* LWWatchFaceChrono.m in Sources */,
+				8D6085A01C23773000F15C35 /* WatchCustomizations.m in Sources */,
+				8D6085A11C23773000F15C35 /* WatchFaceBase.m in Sources */,
+				8D6085A31C23773000F15C35 /* WatchIndicators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4CA65C1C0DCDBC00137121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6085B71C23779300F15C35 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				8D6085B81C23779300F15C35 /* easing.c in Sources */,
+				8D6085B11C23777900F15C35 /* ColorSelector.m in Sources */,
+				8D6085B41C23777900F15C35 /* WatchHands.m in Sources */,
+				8D4CA66A1C0DCEEF00137121 /* LWWatchFaceXLarge.m in Sources */,
+				8D6085B21C23777900F15C35 /* WatchCustomizations.m in Sources */,
+				8D6085B31C23777900F15C35 /* WatchFaceBase.m in Sources */,
+				8D6085B51C23777900F15C35 /* WatchIndicators.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D4CA60D1C0B124D00137121 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4CA60C1C0B124D00137121 /* en */,
+				8D4CA60E1C0B125800137121 /* de */,
+				8D4CA60F1C0B126200137121 /* it */,
+				8D4CA6101C0B126800137121 /* ja */,
+				8D4CA6111C0B127600137121 /* pl */,
+				8D4CA6121C0B128000137121 /* fi */,
+				8D4CA6131C0B129100137121 /* ar */,
+				8D4CA6141C0B129600137121 /* es */,
+				8D4CA6151C0B129C00137121 /* fr */,
+				8D4CA6161C0B12A800137121 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8D88880B1C0EEBFE004F953A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D88880A1C0EEBFE004F953A /* en */,
+				8D88880C1C0EEC01004F953A /* de */,
+				8D88880D1C0EEC02004F953A /* it */,
+				8D88880E1C0EEC03004F953A /* ja */,
+				8D88880F1C0EEC04004F953A /* pl */,
+				8D8888101C0EEC04004F953A /* fi */,
+				8D8888111C0EEC05004F953A /* ar */,
+				8D8888121C0EEC06004F953A /* es */,
+				8D8888131C0EEC07004F953A /* fr */,
+				8D8888141C0EEC07004F953A /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D8888191C0EEC9F004F953A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8888181C0EEC9F004F953A /* en */,
+				8D88881A1C0EECA2004F953A /* de */,
+				8D88881B1C0EECA3004F953A /* it */,
+				8D88881C1C0EECA3004F953A /* ja */,
+				8D88881D1C0EECA4004F953A /* pl */,
+				8D88881E1C0EECA4004F953A /* fi */,
+				8D88881F1C0EECA5004F953A /* ar */,
+				8D8888201C0EECA5004F953A /* es */,
+				8D8888211C0EECA6004F953A /* fr */,
+				8D8888221C0EECA6004F953A /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D8888271C0EED50004F953A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8888261C0EED50004F953A /* en */,
+				8D8888281C0EED53004F953A /* de */,
+				8D8888291C0EED54004F953A /* it */,
+				8D88882A1C0EED54004F953A /* ja */,
+				8D88882B1C0EED55004F953A /* pl */,
+				8D88882C1C0EED56004F953A /* fi */,
+				8D88882D1C0EED57004F953A /* ar */,
+				8D88882E1C0EED58004F953A /* es */,
+				8D88882F1C0EED5A004F953A /* fr */,
+				8D8888301C0EED5B004F953A /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D8888351C0EEE0F004F953A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8888341C0EEE0F004F953A /* en */,
+				8D8888361C0EEE11004F953A /* de */,
+				8D8888371C0EEE12004F953A /* it */,
+				8D8888381C0EEE13004F953A /* ja */,
+				8D8888391C0EEE14004F953A /* pl */,
+				8D88883A1C0EEE14004F953A /* fi */,
+				8D88883B1C0EEE15004F953A /* ar */,
+				8D88883C1C0EEE16004F953A /* es */,
+				8D88883D1C0EEE18004F953A /* fr */,
+				8D88883E1C0EEE18004F953A /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D8888441C0EEEAD004F953A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8888431C0EEEAD004F953A /* en */,
+				8D8888451C0EEEAF004F953A /* de */,
+				8D8888461C0EEEB0004F953A /* it */,
+				8D8888471C0EEEB1004F953A /* ja */,
+				8D8888481C0EEEB1004F953A /* pl */,
+				8D8888491C0EEEB2004F953A /* fi */,
+				8D88884A1C0EEEB3004F953A /* ar */,
+				8D88884B1C0EEEB4004F953A /* es */,
+				8D88884C1C0EEEB5004F953A /* fr */,
+				8D88884D1C0EEEB6004F953A /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D237F411C4D98C900606524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Mickey/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Mouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D237F421C4D98C900606524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Mickey/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Mouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+		8D4CA57B1C0A65BE00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D4CA57C1C0A65BE00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D4CA57E1C0A65BE00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = LockWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.LockWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8D4CA57F1C0A65BE00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = LockWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.LockWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8D4CA5C21C0A6E1B00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Simple/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Simple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D4CA5C31C0A6E1B00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Simple/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Simple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+		8D4CA5D41C0A6F7600137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WatchFaceBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.WatchFaceBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4CA5D51C0A6F7600137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WatchFaceBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.WatchFaceBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D4CA5E71C0A75EE00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Color/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Color;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D4CA5E81C0A75EE00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Color/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Color;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+		8D4CA6471C0DB8CD00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Weather/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D4CA6481C0DB8CD00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Weather/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+		8D4CA6551C0DC8F700137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Chronograph/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Chronograph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D4CA6561C0DC8F700137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Chronograph/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.sniperger.Chronograph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+		8D4CA6641C0DCDBC00137121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "X-Large/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sniperger.X-Large";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Debug;
+		};
+		8D4CA6651C0DCDBC00137121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "X-Large/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sniperger.X-Large";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = watchface;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D237F401C4D98C900606524 /* Build configuration list for PBXNativeTarget "Mickey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D237F411C4D98C900606524 /* Debug */,
+				8D237F421C4D98C900606524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA5611C0A65BE00137121 /* Build configuration list for PBXProject "LockWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA57B1C0A65BE00137121 /* Debug */,
+				8D4CA57C1C0A65BE00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA57D1C0A65BE00137121 /* Build configuration list for PBXNativeTarget "LockWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA57E1C0A65BE00137121 /* Debug */,
+				8D4CA57F1C0A65BE00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA5C11C0A6E1B00137121 /* Build configuration list for PBXNativeTarget "Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA5C21C0A6E1B00137121 /* Debug */,
+				8D4CA5C31C0A6E1B00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA5D31C0A6F7600137121 /* Build configuration list for PBXNativeTarget "WatchFaceBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA5D41C0A6F7600137121 /* Debug */,
+				8D4CA5D51C0A6F7600137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA5E61C0A75EE00137121 /* Build configuration list for PBXNativeTarget "Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA5E71C0A75EE00137121 /* Debug */,
+				8D4CA5E81C0A75EE00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA6461C0DB8CD00137121 /* Build configuration list for PBXNativeTarget "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA6471C0DB8CD00137121 /* Debug */,
+				8D4CA6481C0DB8CD00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA6541C0DC8F700137121 /* Build configuration list for PBXNativeTarget "Chronograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA6551C0DC8F700137121 /* Debug */,
+				8D4CA6561C0DC8F700137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4CA6631C0DCDBC00137121 /* Build configuration list for PBXNativeTarget "X-Large" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4CA6641C0DCDBC00137121 /* Debug */,
+				8D4CA6651C0DCDBC00137121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D4CA55E1C0A65BE00137121 /* Project object */;
+}

@@ -1,0 +1,53 @@
+/*
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Polish translation by Ly on 25.11.15
+ Compatible with Update 1.0.1
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Proste";
+"COLOR" = "Kolor";
+"WEATHER" = "Pogoda";
+"CHRONO" = "Chronograf";
+"X-LARGE" = "XL";
+
+"CUSTOMIZE" = "Dostosuj";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Ustawienia";
+"SETTINGS_GENERAL" = "Ogólne";
+"SETTINGS_WATCHFACES" = "Tarcze Zegarka";
+"SETTINGS_PRIVACY" = "Prywatność";
+"SETTINGS_GRAPHICS" = "Grafika";
+
+"SETTINGS_WEATHER" = "Pogoda";
+"WEATHER_FAHRENHEIT" = "Wykorzystanie Fahrenheita";
+
+"SETTINGS_GENERAL_FOOTER" = "Wersja %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Dostępne Watch Faces";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Wyłączenie tarcz zegarka może usprawnić działanie.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Usługi lokalizacji wymagane";
+"LOCATION_DESCRIPTION" = "Usługi lokalizacji są wymagane aby uaktualnić tarczę zegarka - \"Pogodę\". Jeśli masz je wyłączone, proszę to zmienić w Ustawienia > Prywatność > Usługi lokalizacji. Nie przejmuj się, twoja lokalizacjia nie jest do nikogo wysyłana.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Usługi lokalizacji";
+"SETTINGS_PRIVACY_WOEID" = "Ustaw WOEID dla Pogody";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Ustaw WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Ustaw WOEID (Where On Earth ID) dla lokacji którą chcesz wyświetlać na tarczy zegarka - \"Pogoda\".";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Ustaw";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Anuluj";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Wyłączenie Anti-Aliasing zwiększa wydajność kosztem jakości obrazu.";

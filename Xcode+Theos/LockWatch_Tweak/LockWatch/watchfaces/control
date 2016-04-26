@@ -1,0 +1,10 @@
+Package: de.sniperger.LockWatchStockPlugins
+Name: LockWatch Basic Plugins
+Version: 1.5
+Architecture: iphoneos-arm
+Description: Basic plugins for LockWatch
+Depiction: http://fdev.markab.uberspace.de/repo/depictions/de.sniperger.LockWatchStockPlugins/depiction.html
+Homepage: http://sniperger.github.io/repo
+Maintainer: Sniper_GER <janikschmidt@icloud.com>
+Author: Sniper_GER <janikschmidt@icloud.com>
+Section: Plugins (LockWatch)

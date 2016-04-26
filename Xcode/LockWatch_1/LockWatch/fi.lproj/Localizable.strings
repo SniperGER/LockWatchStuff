@@ -1,0 +1,53 @@
+/* 
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Finnish translation by /u/hyperakt1v
+ Compatible with Update 1.0.1 
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+*/
+
+/* Watch Face names */
+"SIMPLE" = "Yksinkertainen";
+"COLOR" = "Väri";
+"WEATHER" = "Sää";
+"CHRONO" = "Kronografi";
+"X-LARGE" = "X-Large";
+
+"CUSTOMIZE" = "Kustomoi";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Asetukset";
+"SETTINGS_GENERAL" = "Yleiset";
+"SETTINGS_WATCHFACES" = "Kellotaulut";
+"SETTINGS_PRIVACY" = "Yksityisyys";
+"SETTINGS_GRAPHICS" = "Grafiikka";
+
+"SETTINGS_WEATHER" = "Sää";
+"WEATHER_FAHRENHEIT" = "Käytä Fahrenheitia";
+
+"SETTINGS_GENERAL_FOOTER" = "Version %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Saatavilla Olevat Kellotaulut";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Kellotaulujen pois kytkeminen voi parantaa suorituskykyä.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Sijaintipalvelut vaaditaan";
+"LOCATION_DESCRIPTION" = "Sijantipalveluita vaaditaan päivittämään \"Sää\" kellon ruutua. Jos olet ottanut sijaintipalvelut pois päältä, mene Asetukset > Tietosuoja > Sijaintipalvelut ja laita ne päälle. Älä huoli, sijaintiasi ei jaeta kenellekään.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Sijaintipalvelut";
+"SETTINGS_PRIVACY_WOEID" = "Aseta WOEID Säälle";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Aseta WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Aseta WOEID (Where On Earth ID) sijainnille, jolle haluat näyttää sen \"Sää\" kellotaulussa.";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Aseta";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Peruuta";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Anti-Aliasingin poistaminen parantaa suorituskykyä näytön laadun kustannuksella.";

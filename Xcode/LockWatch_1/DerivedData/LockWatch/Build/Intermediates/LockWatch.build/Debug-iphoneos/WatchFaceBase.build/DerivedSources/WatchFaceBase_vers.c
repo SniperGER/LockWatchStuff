@@ -1,0 +1,1 @@
+ const unsigned char WatchFaceBaseVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:WatchFaceBase  PROJECT:LockWatch-1" "\n"; const double WatchFaceBaseVersionNumber __attribute__ ((used)) = (double)1.;

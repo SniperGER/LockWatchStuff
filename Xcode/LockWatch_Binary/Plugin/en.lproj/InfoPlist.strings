@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LockWatch_Plugin
+
+  Created by Janik Schmidt on 02.12.15.
+
+*/
+
+CFBundleDisplayName = "Binary";

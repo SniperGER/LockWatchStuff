@@ -1,0 +1,53 @@
+/*
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Italian translation by Matteo Piccina on 25.11.15
+ Compatible with Update 1.0.1
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved.
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Semplice";
+"COLOR" = "Colore";
+"WEATHER" = "Meteo";
+"CHRONO" = "Cronografo";
+"X-LARGE" = "Extra Large";
+
+"CUSTOMIZE" = "Personalizza";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Impostazioni";
+"SETTINGS_GENERAL" = "Generali";
+"SETTINGS_WATCHFACES" = "Quadranti";
+"SETTINGS_PRIVACY" = "Privacy";
+"SETTINGS_GRAPHICS" = "Grafica";
+
+"SETTINGS_WEATHER" = "Meteo";
+"WEATHER_FAHRENHEIT" = "Usa Fahrenheit";
+
+"SETTINGS_GENERAL_FOOTER" = "Versione %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Quadranti Disponibili";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Disabilitare i quadranti può migliorare le prestazioni.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Servizi di Localizzazione richiesti";
+"LOCATION_DESCRIPTION" = "I Servizi di Localizzazione sono richiesti per aggiornare il quadrante \"Meteo\". Se hai disabilitato i Servizi di Localizzazione, vai su Impostazioni > Privacy > Localizzazione e abilitali. Non ti preoccupare, la tua localizzazione non verrà inviata a nessuno.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Localizzazione";
+"SETTINGS_PRIVACY_WOEID" = "Imposta WOEID per Meteo";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Imposta WOEID";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Imposta il WOEID (Where On Earth ID) per il luogo che vuoi mostrare nel quadrante \"Meteo\"";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Imposta";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Annulla";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Disabilitare l'Anti-Aliasing migliora le prestazioni abbassando la qualità video.";

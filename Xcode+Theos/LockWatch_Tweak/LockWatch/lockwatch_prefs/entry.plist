@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>LockWatch.png</string>
+		<key>label</key>
+		<string>LockWatch</string>
+		<key>bundle</key>
+		<string>LockWatch_Prefs</string>
+		<key>isController</key>
+		<string>YES</string>
+		<key>detail</key>
+		<string>LockWatchRootListController</string>
+	</dict>
+	<key>title</key>
+	<string>LockWatch</string>
+</dict>
+</plist>

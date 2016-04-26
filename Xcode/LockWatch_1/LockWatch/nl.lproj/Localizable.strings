@@ -1,0 +1,53 @@
+/* 
+ Localizable.strings
+ LockWatch_Test
+ 
+ Created by Janik Schmidt on 15.11.15.
+ Dutch translation by /u/SchraleAnus on 27.11.15
+ Compatible with Update 1.0.2
+ Copyright © 2015 Janik Schmidt (Sniper_GER). All rights reserved. 
+ */
+
+/* Watch Face names */
+"SIMPLE" = "Eenvoud";
+"COLOR" = "Kleur";
+"WEATHER" = "Weeer";
+"CHRONO" = "Chronograaf";
+"X-LARGE" = "X-Large";
+
+"CUSTOMIZE" = "Pas aan";
+
+
+/* Settings - Main page */
+"SETTINGS" = "Instellingen";
+"SETTINGS_GENERAL" = "Algemeen";
+"SETTINGS_WATCHFACES" = "Watch Faces";
+"SETTINGS_PRIVACY" = "Privacy";
+"SETTINGS_GRAPHICS" = "Graphics";
+
+"SETTINGS_WEATHER" = "Weer";
+"WEATHER_FAHRENHEIT" = "Gebruik Fahrenheit";
+
+"SETTINGS_GENERAL_FOOTER" = "Versie %@";
+
+
+/* Settings - Watch Faces */
+"SETTINGS_WATCHFACES_AVAILABLE" = "Beschikbare Watch Faces";
+"SETTINGS_WATCHFACES_AVAILABLE_FOOTER" = "Uitzetten van watch faces kan de performance verbeteren.";
+
+
+/* Settings - Privacy */
+"LOCATION_TITLE" = "Location Services verreist";
+"LOCATION_DESCRIPTION" = "De Location Services zijn noodzakelijk om \"Weather\" watch faces te updaten. Wanneer deze uit staan, ga dan aub naar Instellingen > Privacy > Location Services en zet ze aan. Uw locatie wordt niet gedeeld.";
+
+"SETTINGS_PRIVACY_LOCATION" = "Locatie Services";
+"SETTINGS_PRIVACY_WOEID" = "Stel WOEID in voor Weer";
+"SETTINGS_PRIVACY_WOEID_ALERT_TITLE" = "Stel WOEID in";
+"SETTINGS_PRIVACY_WOEID_ALERT_DESCRIPTION" = "Stel de WOEID (Where On Earth ID) in om deze als locatie te zien bij de \"Weather\" watch face.";
+"SETTINGS_PRIVACY_WOEID_ALERT_OK" = "Stel in";
+"SETTINGS_PRIVACY_WOEID_ALERT_CANCEL" = "Annuleer";
+
+
+/* Settings - Graphics */
+"SETTINGS_GRAPHICS_AA" = "Anti-Aliasing";
+"SETTINGS_GRAPHICS_AA_FOOTER" = "Het uitzetten van Anti-Aliasing verbeterd de performance ten koste van de kwaliteit.";
